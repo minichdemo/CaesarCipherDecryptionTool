@@ -9,4 +9,6 @@ Now we'll write a formula in cell `A3` to covert `65` to its ASCII character. En
 
 ![](Caesar2.PNG)
 
+Now we are going to add a variable so we can introduce different amounts of "shift." Right click on cell `A1` and choose *Insert*.
+
 
