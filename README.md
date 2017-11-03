@@ -2,7 +2,7 @@
 The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) is one of the simplest forms of encryption. It is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet. In this lab we will use Microsoft Excel to build a spreadsheet that we can use to decrypt ("crack") secret coded messages.   
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
-Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will [use Excels fill handle to create the alphabet](https://www.techrepublic.com/blog/microsoft-office/using-excels-fill-handle-to-create-an-alphabetic-list/). Type `65` in cell `A2`. Right click on the right bottom of cell `A2` and drag to the right to `fill series` to cell `Z2` as shown below.
+Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the right bottom of cell `A2` and drag to the right to `fill series` to cell `Z2` as shown below.
 
 ![](Caesar1.png)
 
