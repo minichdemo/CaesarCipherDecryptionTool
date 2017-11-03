@@ -13,7 +13,7 @@ Now we are going to add a variable so we can introduce different amounts of "shi
 
 ![](Caesar3.png)
 
-Now click on cell `A4`. We are going to write a formula `=A2+shift`
+Now click on cell `A5`. We are going to write a formula `=A2+shift`
 
 ![](Caesar4.PNG)
 
