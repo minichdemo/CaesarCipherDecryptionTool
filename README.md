@@ -37,5 +37,5 @@ Now enter the following secret message on row 7 one character per cell: HTRUZYJW
 
 ![](Caesar9.PNG)
 
-Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages:
+Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages. You will have to guess the `shift` in each of the following Caesar Ciphers.
 
