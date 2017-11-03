@@ -2,12 +2,12 @@
 The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) is one of the simplest forms of encryption. It is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet. Caesar Ciphers are especially vulnerable to "brute force" attacks that use trial and error to decode encrypted data. In this lab we will use Microsoft Excel to build a spreadsheet that we help us to use "brute force" to decrypt ("crack") secret messages that were encrypted with a Caesar Cipher.   
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
-Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the right bottom of cell `A2` and drag to the right to `fill series` to cell `Z2` as shown below.
+Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to place the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the little black box at the right bottom of cell `A2` (called the "fill handle") and drag to the right to `fill series` to cell `Z2` as shown below.
 
 ![](Caesar1.png)
 
 ### Step 2: Write a formula to convert numbers to ASCII characters
-Now we'll write a formula in cell `A3` to convert `65` to its ASCII character. Enter the formula `=CHAR(A2)` then left click on the bottom right of cell `A3` and fill through cell `Z3` as shown below.   
+Now we'll write a formula in cell `A3` to convert `65` to its ASCII character. Enter the formula `=CHAR(A2)` then left click on the fill handle at the bottom right of cell `A3` and fill through cell `Z3` as shown below.   
 
 ![](Caesar2.PNG)
 
@@ -41,7 +41,7 @@ The problem is that after the number `90` we "run out" of letters of the alphabe
 ![](Caesar8.PNG)
 
 ### Step 8: Test your decryption tool
-Now enter the following secret message on row 7 one character per cell: HTRUZYJW XHNJSHJ WTHPX. Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through cell `Z8`. Enter 21 in cell `A1` for the amount of `shift`. You should see the following decoded message.
+Now enter the following secret message on row 7 one character per cell: HTRUZYJW XHNJSHJ WTHPX. Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. You should see the following decoded message.
 
 ![](Caesar9.PNG)
 
@@ -55,4 +55,4 @@ Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the 
 - EJB EF MPT NVFSUPT
 
 ### Optional
-If you have extra time, see if you can write a `=LOOKUP` function to *encrypt* a plain text message into Caesar Cipher code. Find a partner and see if they can decrypt your encrypted message.
+If you have extra time, see can use the spreadsheet to *encrypt* a plain text message into Caesar Cipher code. Find a partner and see if they can decrypt your encrypted message.
