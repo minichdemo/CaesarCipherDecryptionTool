@@ -5,13 +5,21 @@ Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. S
 
 ![](Caesar1.png)
 
-Now we'll write a formula in cell `A3` to covert `65` to its ASCII character. Enter the formula `=CHAR(A2)` then left click on the bottom of cell `A3` and fill through cell `Z3` as shown below.   
+Now we'll write a formula in cell `A3` to covert `65` to its ASCII character. Enter the formula `=CHAR(A2)` then left click on the bottom right of cell `A3` and fill through cell `Z3` as shown below.   
 
 ![](Caesar2.PNG)
 
 Now we are going to add a variable so we can introduce different amounts of "shift." Click on cell `A1` and right about it change 'A1' to 'shift'.
 
-![](Caesar3.PNG)
+![](Caesar3.png)
+
+Now click on cell `A4'. We are going to write a formula `=A2+shift`
+
+![](Caesar4.PNG)
+
+Now left click on the bottom right of cell `A3` and fill through cell `Z3` as shown below.
+
+![](Caesar5.PNG)
 
 
 
