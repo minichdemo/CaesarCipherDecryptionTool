@@ -33,7 +33,7 @@ The problem is that after the number `90` we "run out" of letters of the alphabe
 
 ![](Caesar8.PNG)
 
-Now enter the following secret message on row 7 one character per cell: H	T	R	U	Z	Y	J	W		X	H	N	J	S	H	J		W	T	H	P	X. Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$4:$AA$4,$A$3:$AA$3)` and click and drag of the right bottom of cell `A8` and fill through cell `Z8`. You should see the following decoded message.
+Now enter the following secret message on row 7 one character per cell: H	T	R	U	Z	Y	J	W   X	H	N	J	S	H	J   W	T	H	P	X. Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$4:$AA$4,$A$3:$AA$3)` and click and drag of the right bottom of cell `A8` and fill through cell `Z8`. You should see the following decoded message.
 
 ![](Caesar9.PNG)
 
