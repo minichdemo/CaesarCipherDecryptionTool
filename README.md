@@ -5,7 +5,7 @@ The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-ci
 
 ### Modulus
 Modulus is a type of arithmetic useful in encryption (and lots more!). We'll use modulus in building our decryption tool. Remember how you did division in grade school? For example, if you were to divide 8 by 5, you would get two answers a quotient of 1 and a remainder of 3.   
-![](modulus1.PNG)   
+![](modulus1.png)   
 
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
