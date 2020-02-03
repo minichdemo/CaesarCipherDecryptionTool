@@ -11,8 +11,8 @@ There is another way to think of modulus. Sometimes modulus is called *clock ari
 Then see if you can answer these questions on your own *without* using the widget. HINT: all of these are kind of easy if you understand how Modulo works - don't be fooled by the big number on the first one:
 * 24 MOD 817234
 * 24 MOD 23
-* 15 MOD 4
-
+* 15 MOD 4   
+Now that you understand modulus, we can build our decryption tool.   
 
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
