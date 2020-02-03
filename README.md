@@ -12,8 +12,8 @@ Then see if you can answer these questions on your own *without* using the widge
 * 24 MOD 817234
 * 24 MOD 23
 * 15 MOD 4   
-Now that you understand modulus, we can build our decryption tool.   
 
+Now that you understand modulus, we can build our decryption tool.   
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
 Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to place the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the little black box at the right bottom of cell `A2` (called the "fill handle") and drag to the right to `fill series` to cell `Z2` as shown below.
