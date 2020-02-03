@@ -1,5 +1,12 @@
 # Build a Caesar Cipher Decryption Tool
-The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) is one of the simplest forms of encryption. It is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet. Caesar Ciphers are especially vulnerable to "brute force" attacks that use trial and error to decode encrypted data. In this lab we will use Microsoft Excel to build a spreadsheet that we help us to use "brute force" to decrypt ("crack") secret messages that were encrypted with a Caesar Cipher.   
+In the previous activities, you’ve seen that unencrypted data can be intercepted by hackers. Encryption makes data more private but simple encryption is vulnerable to “Brute Force” attacks that use trial and error to crack secret messages.
+
+The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) is one of the simplest forms of encryption. It is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet. Caesar Ciphers are especially vulnerable to "brute force" attacks that use trial and error to decode encrypted data. In this lab we will use Microsoft Excel to build a spreadsheet that we help us to use "brute force" to decrypt ("crack") secret messages that were encrypted with a Caesar Cipher.
+
+### Modulus
+Modulus is a type of arithmetic useful in encryption (and lots more!). We'll use modulus in building our decryption tool. Remember how you did division in grade school? For example, if you were to divide 8 by 5, you would get two answers a quotient of 1 and a remainder of 3.   
+![](modulus1.PNG)   
+
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
 Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to place the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the little black box at the right bottom of cell `A2` (called the "fill handle") and drag to the right to `fill series` to cell `Z2` as shown below.
