@@ -8,7 +8,7 @@ Modulus is a type of arithmetic useful in encryption (and lots more!). We'll use
 ![](modulus1.png)   
 Modulus gives the remainder when we are dividing two integers. There is also another way to think of modulus. Sometimes modulus is called *clock arithmetic*. Go to [https://studio.code.org/s/allthethings/stage/31/puzzle/1](https://studio.code.org/s/allthethings/stage/31/puzzle/1) and experiment with the Modulo Clock Widget. Here's how 8 divided by 5 looks on the clock widget.   
 ![](modulus2.JPG)    
-Then see if you can answer these questions on your own *without* using the widget. HINT: all of these are kind of easy if you understand how Modulo works - don't be fooled by the big number on the first one:
+Then see if you can answer these questions on your own *without* using the widget. HINT: all of these are kind of easy if you understand how Modulus works - don't be fooled by the big number on the first one:
 * 24 MOD 817234
 * 24 MOD 23
 * 15 MOD 4   
