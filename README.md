@@ -6,7 +6,7 @@ The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-ci
 ### Modulus
 Modulus is a type of arithmetic useful in encryption (and lots more!). We'll use modulus in building our decryption tool. Remember how you did division in grade school? For example, if you were to divide 8 by 5, you would get two answers a quotient of 1 and a remainder of 3.   
 ![](modulus1.png)   
-There is another way to think of modulus. Sometimes modulus is called *clock arithmetic*. Go to [https://studio.code.org/s/allthethings/stage/31/puzzle/1](https://studio.code.org/s/allthethings/stage/31/puzzle/1) and experiment with the Modulo Clock Widget. Here's how 8 divided by 5 looks on the clock widget.   
+Modulus gives the remainder when we are dividing two integers. There is also another way to think of modulus. Sometimes modulus is called *clock arithmetic*. Go to [https://studio.code.org/s/allthethings/stage/31/puzzle/1](https://studio.code.org/s/allthethings/stage/31/puzzle/1) and experiment with the Modulo Clock Widget. Here's how 8 divided by 5 looks on the clock widget.   
 ![](modulus2.JPG)    
 Then see if you can answer these questions on your own *without* using the widget. HINT: all of these are kind of easy if you understand how Modulo works - don't be fooled by the big number on the first one:
 * 24 MOD 817234
