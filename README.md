@@ -59,6 +59,8 @@ Now enter the following secret message on row 7 one character per cell: SJB NUMT
 
 Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. 
 
+![](Caesar9.PNG)
+
 See 🎅 if you have any questions. Merry Christmas!
 
 ![](Caesar9.PNG)
