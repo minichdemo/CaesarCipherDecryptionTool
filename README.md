@@ -63,6 +63,3 @@ Now enter the following secret message on row 7 one character per cell: HTRUZYJW
 Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages. You will have to guess the `shift` in each of the following Caesar Ciphers. Check you answer with 🎅 
 
 - SJB NUMTSJ KTW TSJ DJFW
-
-### Optional
-If you have extra time, see can use the spreadsheet to *encrypt* a plain text message into Caesar Cipher code. Find a partner and see if they can decrypt your encrypted message.
