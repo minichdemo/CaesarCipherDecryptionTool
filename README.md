@@ -56,7 +56,10 @@ The problem is that after the number `90` we "run out" of letters of the alphabe
 
 ### Step 8: Test your decryption tool
 Now enter the following secret message on row 7 one character per cell: SJB NUMTSJ KTW TSJ DJFW 
-Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. See 🎅 if you have any questions. Merry Christmas!
+
+Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. 
+
+See 🎅 if you have any questions. Merry Christmas!
 
 ![](Caesar9.PNG)
 
