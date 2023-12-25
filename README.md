@@ -55,11 +55,9 @@ The problem is that after the number `90` we "run out" of letters of the alphabe
 ![](Caesar8.PNG)
 
 ### Step 8: Test your decryption tool
-Now enter the following secret message on row 7 one character per cell: HTRUZYJW XHNJSHJ WTHPX. Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. You should see the following decoded message.
+Now enter the following secret message on row 7 one character per cell: SJB NUMTSJ KTW TSJ DJFW 
+Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A7,$A$3:$Z$3,$A$4:$Z$4)` and click and drag of the right bottom of cell `A8` and fill through all the cells under the secret message. Enter 21 in cell `A1` for the amount of `shift`. See 🎅 if you have any questions. Merry Christmas!
 
 ![](Caesar9.PNG)
 
-### Decrypt this Christmas Day secret message
-Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages. You will have to guess the `shift` in each of the following Caesar Ciphers. Check you answer with 🎅 
 
-- SJB NUMTSJ KTW TSJ DJFW
