@@ -63,6 +63,4 @@ Type the following code to translate the secret message in cell `A8`: `=LOOKUP(A
 
 See 🎅 if you have any questions. Merry Christmas!
 
-![](Caesar9.PNG)
-
 
