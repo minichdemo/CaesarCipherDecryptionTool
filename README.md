@@ -1,5 +1,5 @@
 # Build a Caesar Cipher Decryption Tool
-In the previous activities, you’ve seen that unencrypted data can be intercepted by hackers. Encryption makes data more private but simple encryption is vulnerable to “Brute Force” attacks that use trial and error to crack secret messages.
+Unencrypted data can be intercepted by corporate thieves. Encryption makes data more private but simple encryption is vulnerable to “Brute Force” attacks that use trial and error to crack secret messages.
 
 The [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) is one of the simplest forms of encryption. It is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet. Caesar Ciphers are especially vulnerable to "brute force" attacks that use trial and error to decode encrypted data. In this lab we will use Microsoft Excel to build a spreadsheet that we help us to use "brute force" to decrypt ("crack") secret messages that were encrypted with a Caesar Cipher.
 
@@ -16,7 +16,7 @@ Then see if you can answer these questions on your own *without* using the widge
 Now that you understand modulus, we can build our decryption tool.   
 
 ### Step 1: Fill the numbers 65 - 90 in series (ASCII codes for A through Z)
-Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to place the numbers 65 - 90 in series. Type `65` in cell `A2`. Right click on the little black box at the right bottom of cell `A2` (called the "fill handle") and drag to the right to `fill series` to cell `Z2` as shown below.
+Start by creating a new spreadsheet in Excel. Choose *Excel | Blank Workbook*. Then we will use Excels "fill handle" to place the numbers 65 - 90 in series. Type `65` in cell `A2` and `66` in cell `B2`. Highlight that pair of cells, right click on the little black box at the right bottom of cell `B2` (called the "fill handle") and drag to the right to `fill series` to cell `Z2` as shown below.
 
 ![](Caesar1.png)
 
@@ -59,14 +59,10 @@ Now enter the following secret message on row 7 one character per cell: HTRUZYJW
 
 ![](Caesar9.PNG)
 
-### Decrypt 5 secret messages
-Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages. You will have to guess the `shift` in each of the following Caesar Ciphers. Check you answers with your teacher.
+### Decrypt this Christmas Day secret message
+Now that you have a working Caesar Cipher Decrypter, see if you can decrypt the following secret messages. You will have to guess the `shift` in each of the following Caesar Ciphers. Check you answer with 🎅 
 
-- IPM GTUDGB
-- BZKK NE CTSX
-- NFICU JVIZVJ
-- QXLDB YXLDB
-- EJB EF MPT NVFSUPT
+- SJB NUMTSJ KTW TSJ DJFW
 
 ### Optional
 If you have extra time, see can use the spreadsheet to *encrypt* a plain text message into Caesar Cipher code. Find a partner and see if they can decrypt your encrypted message.
